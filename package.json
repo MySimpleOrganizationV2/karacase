@@ -1,0 +1,53 @@
+{
+  "name": "karacase",
+  "version": "2.2.0",
+  "license": "MIT",
+  "description": "Convert a string to karacase.",
+  "keywords": [
+    "karacase",
+    "case",
+    "casing",
+    "kara",
+    "kara-case",
+    "string",
+    "my",
+    "simple",
+    "V2"
+  ],
+  "contributors": [
+    {
+      "name": "Me",
+      "email": "me@myemail.at"
+    },
+    {
+      "name": "Foo",
+      "email": "foo@myemail.at"
+    },
+    {
+      "name": "Simple Calculator",
+      "url": "https://www.online-calculator.com/full-screen-calculator"
+    }
+  ],
+  "main": "index.js",
+  "author": {
+    "name": "Foo V2",
+    "url": "https://www.npmjs.com/~foov2"
+  },
+  "maintainers": [
+    {
+      "name": "Me",
+      "email": "me@myemail.at"
+    },
+    {
+      "name": "Foo V2",
+      "email": "foov2@myemail.at"
+    },
+    {
+      "name": "Simple Calculator",
+      "url": "https://www.online-calculator.com/full-screen-calculator"
+    }
+  ],
+  "dependencies": {
+    "pascalcase": "^1.0.0"
+  }
+}

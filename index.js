@@ -1,19 +1,19 @@
 /*!
  * karacase <https://github.com/Phillip9587/karacase>
  */
-function titlecase(input: string): string { return input[0].toLocaleUpperCase() + input.slice(1); }
+function titlecase(input) { return input[0].toLocaleUpperCase() + input.slice(1); }
 
 /**
  * Converts a string to karacase
  * @param value Input String
  * @param isSimple Simple karacase string
  * @param version Version of the karacase string
- */
-export function karacase(value: any, isSimple: boolean = false, version: number = 0): string {
+ */ 
+function karacase(value, isSimple = false, version = 0) {
     if (value === null || value === void 0) return '';
     if (typeof value.toString !== 'function') return '';
 
-    let input: string = value.toString().trim();
+    let input = value.toString().trim();
     if (input === '') return '';
 
     let pre = 'my';
@@ -33,3 +33,5 @@ export function karacase(value: any, isSimple: boolean = false, version: number 
 
     return pre + input + post;
 };
+
+exports = module.exports = karacase;

@@ -1,6 +1,11 @@
 /*!
  * karacase <https://github.com/Phillip9587/karacase>
  */
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.karacase = void 0;
+
 function titlecase(input) { return input[0].toLocaleUpperCase() + input.slice(1); }
 
 /**

@@ -4,4 +4,6 @@
  * @param isSimple Simple karacase string
  * @param version Version of the karacase string
  */
-export declare function karacase(value: any, isSimple?: boolean, version?: number): string;
+declare function karacase(value: any, isSimple?: boolean, version?: number): string;
+
+export default karacase;

@@ -1,4 +1,7 @@
+# Karacase
 > Convert a string to karacase.
+
+![npm](https://img.shields.io/npm/v/karacase?style=flat-square)
 
 ## Install
 

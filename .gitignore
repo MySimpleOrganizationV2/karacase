@@ -22,5 +22,4 @@ yarn-error.log
 vendor
 temp
 tmp
-package-lock.json
 dist

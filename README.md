@@ -5,7 +5,7 @@
 
 ## Install
 
-Install with [npm](https://www.npmjs.com/) (requires [Node.js](https://nodejs.org/en/) >=8):
+Install with [npm](https://www.npmjs.com/) (requires [Node.js](https://nodejs.org/en/) >=10.22.0):
 
 ```sh
 $ npm install --save karacase

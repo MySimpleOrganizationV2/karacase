@@ -1,7 +1,7 @@
 # Karacase
 > Convert a string to karacase.
 
-![npm](https://img.shields.io/npm/v/karacase?style=flat-square&label=npm%20package&color=%231976D2) ![npm bundle size](https://img.shields.io/bundlephobia/min/karacase?label=npm%20size&style=flat-square&color=%231976D2) ![npm](https://img.shields.io/npm/dt/karacase?color=%231976D2&style=flat-square)
+![node-current](https://img.shields.io/node/v/karacase?color=%231976D2&style=flat-square) ![node-lts](https://img.shields.io/node/v-lts/karacase?color=%231976D2&style=flat-square) ![npm version](https://img.shields.io/npm/v/karacase?style=flat-square&color=%231976D2) ![npm bundle size](https://img.shields.io/bundlephobia/min/karacase?style=flat-square&color=%231976D2) ![downloads](https://img.shields.io/npm/dt/karacase?color=%231976D2&style=flat-square)
 
 ## Install
 

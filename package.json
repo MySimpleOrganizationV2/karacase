@@ -3,10 +3,10 @@
   "version": "2.4.8",
   "license": "MIT",
   "description": "Convert a string to karacase.",
-  "homepage": "https://github.com/Phillip9587/karacase",
+  "homepage": "https://github.com/MySimpleOrganizationV2/karacase",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Phillip9587/karacase.git"
+    "url": "https://github.com/MySimpleOrganizationV2/karacase.git"
   },
   "scripts": {
     "test": "mocha test.js"

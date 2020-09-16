@@ -10,24 +10,19 @@ function titlecase(input) { return input[0].toLocaleUpperCase() + input.slice(1)
 
 /**
  * Converts a string to karacase
- * @param value Input String
+ * @param str Input String
  * @param isSimple Simple karacase string
  * @param version Version of the karacase string
- */ 
-function karacase(value, isSimple = false, version = 0) {
-    if (value === null || value === void 0) return '';
-    if (typeof value.toString !== 'function') return '';
+ */
+function karacase(str, isSimple = false, version = 0) {
+    if (str === null || str === void 0) return '';
+    if (typeof str.toString !== 'function') return '';
 
-    let input = value.toString().trim();
+    let input = str.toString().trim();
     if (input === '') return '';
 
-    let pre = 'my';
-    if (isSimple)
-        pre += 'Simple';
-
-    let post = '';
-    if (version > 0)
-        post = 'V' + version;
+    let pre = isSimple === true ? 'mySimple' : 'my';
+    let post = (version != undefined && version > 0) ? `V${version}` : '';
 
     if (input.length === 1) return pre + input.toLocaleUpperCase() + post;
 
